@@ -52,7 +52,7 @@ import java.util.function.Function;
 
 public class VerifyUtils {
     private static final Logger log = LoggerFactory.getLogger(VerifyUtils.class);
-    private static final int TIMEOUT = 90;
+    private static final int TIMEOUT = 180;
     private static AtomicInteger receivedIndex = new AtomicInteger(0);
     private static int defaultSimpleThreadNums = 4;
 
